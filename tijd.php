@@ -22,9 +22,6 @@ foreach ($a as $value){
         case 's':
             $b=$b+(int)$value;
         break;
-    default:
-        echo "geen tijd";
     }
-
 }
 echo "${b} seconden";
