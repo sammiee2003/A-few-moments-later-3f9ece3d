@@ -9,19 +9,19 @@ foreach ($a as $value) {
     switch($i){
     case "d":
             $b=$b+((int)$value * 86400);
-            break;
+        break;
         
     case "h":
             $b=$b+((int)$value * 3600);
-            break;
+        break;
 
     case 'm':
             $b=$b+((int)$value * 60);
-            break;
+        break;
     
     case 's':
             $b=$b+(int)$value;
-            break;
+        break;
     }
 }
 echo "${b} seconden";
